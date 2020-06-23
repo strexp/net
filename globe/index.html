@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stragegic Explorations Global Network</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" href="index.css">
+<script src="miniature.earth.core.js"></script>
+
+<script>
+
+var myearth;
+var sprites = [];
+
+window.addEventListener( 'load', function() {
+
+	myearth = new Earth( document.getElementById('myearth'), {
+	
+		light: 'none',
+		
+		texture: 'hologram/hologram-map.svg',
+		transparent: true,
+		
+		location: { lat: 0, lng : 0 },
+		
+		autoRotate : true,
+		autoRotateSpeed: 1.2,
+		autoRotateDelay: 100,
+		autoRotateStart: 2000,			
+		
+	} );
+	
+	
+	myearth.addEventListener( "ready", function() {
+
+		this.startAutoRotate();
+		
+		// connections
+		
+		var line = {
+			color : 'white',
+			opacity: 0.4,
+			hairline: true,
+			offset: -0.5
+		};
+		
+		for ( var i in connections ) {			
+			line.locations = [ { lat: connections[i][0], lng: connections[i][1] }, { lat: connections[i][2], lng: connections[i][3] } ];
+			this.addLine( line );
+		}
+		
+		
+		
+		// add 5 shine sprites
+		
+		for ( var i=0; i < Object.keys(nodes).length; i++ ) {
+			sprites[i] = this.addSprite( {
+				image: 'hologram/hologram-shine.svg',
+				scale: 0.01,
+				offset: -0.5
+			} );
+			pulse( i );
+		}
+		
+		
+	} );
+	
+	
+} );
+
+
+function getRandomInt(min, max) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
+function pulse( index ) {
+    //var random_location = connections[ getRandomInt(0, connections.length-1) ];
+    var random_location = nodes[Object.keys(nodes)[index]]
+	sprites[index].location = { lat: random_location[0] , lng: random_location[1] };
+	
+	sprites[index].animate( 'scale', 0.6, { easing: 'out-quad', duration: 300, complete : function(){
+		this.animate( 'scale', 0.01, { easing: 'in-quad', duration: 300, complete : function(){
+			setTimeout( function(){ pulse( index ); }, getRandomInt(100, 400) );
+		} });
+	} });
+}
+
+function cloc(loc1, loc2) {
+    return loc1.concat(loc2)
+}
+
+var nodes = {
+    // lon
+    lon: [51.30, 0.1],
+    // fr
+    fr: [50.41, 3.10],
+    // ro
+    ro: [44.26, 26.06],
+    // cd
+    cd: [30.67, 104.06],
+    // bj
+    bj: [39.9, 116.25],
+    // tyo
+    tyo: [35.41, 139.42],
+    // hk
+    hk: [22.16, 114.10],
+    // sg
+    sg: [1.52, 103.51],
+    // sol
+    sol: [37.33, 126.58],
+    // nyc
+    nyc: [40.43, -74.0],
+    // lax
+    lax: [33.56, -118.24],
+    // fmt
+    fmt: [37.33, -121.59]
+}
+
+var connections = [
+    // lon - fr
+    cloc(nodes.lon, nodes.fr),
+    // lon - ro
+    cloc(nodes.lon, nodes.ro),
+    // lon - sg
+    cloc(nodes.lon, nodes.sg),
+    // lon - nyc
+    cloc(nodes.lon, nodes.nyc),
+    // nyc - fmt
+    cloc(nodes.nyc, nodes.fmt),
+    // nyc - lax
+    cloc(nodes.nyc, nodes.lax),
+    // lax - fmt
+    cloc(nodes.lax, nodes.fmt),
+    // lax - sg
+    cloc(nodes.lax, nodes.sg),
+    // fmt - sg
+    cloc(nodes.fmt, nodes.sg),
+    // sg - hk
+    cloc(nodes.sg, nodes.hk),
+    // lax - hk
+    cloc(nodes.lax, nodes.hk),
+    // fmt - hk
+    cloc(nodes.fmt, nodes.hk),
+    // tyo - hk
+    cloc(nodes.tyo, nodes.hk),
+    // tyo - sol
+    cloc(nodes.tyo, nodes.sol),
+    // cd - hk
+    cloc(nodes.cd, nodes.hk),
+    // cd - sg
+    cloc(nodes.cd, nodes.sg),
+    // cd - bj
+    cloc(nodes.cd, nodes.bj),
+    // cd - lon
+    cloc(nodes.cd, nodes.lon),
+    // cd - sol
+    cloc(nodes.cd, nodes.sol),
+];
+
+
+</script>
+
+</head>
+
+<body>
+
+	<div id="myearth">
+		<div id="glow"></div>
+	</div>
+
+<a id="back-link" href="../">Strategic Explorations<br/><small>Global Backbone Network</small></a>
+<div id="legal-footer-wrap">
+	<div id="legal-footer">Strategic Explorations AS207268</div>
+</div>
+
+</body>
+</html>
