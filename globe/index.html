@@ -117,7 +117,9 @@ var nodes = {
     // lax
     lax: [33.56, -118.24],
     // fmt
-    fmt: [37.33, -121.59]
+    fmt: [37.33, -121.59],
+    // sea
+    sea: [47.61, -122.34]
 }
 
 var connections = [
@@ -159,6 +161,8 @@ var connections = [
     cloc(nodes.cd, nodes.lon),
     // cd - sol
     cloc(nodes.cd, nodes.sol),
+    // sea - fmt
+    cloc(nodes.sea, nodes.fmt)
 ];
 
 
