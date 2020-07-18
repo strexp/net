@@ -96,8 +96,8 @@ function cloc(loc1, loc2) {
 var nodes = {
     // lon
     lon: [51.30, 0.1],
-    // fr
-    fr: [50.41, 3.10],
+    // lux
+    lux: [49.61, 6.13],
     // ro
     ro: [44.26, 26.06],
     // cd
@@ -108,6 +108,8 @@ var nodes = {
     tyo: [35.41, 139.42],
     // hk
     hk: [22.16, 114.10],
+    // las
+    las: [36.11, -115.67],
     // sg
     sg: [1.52, 103.51],
     // sol
@@ -123,8 +125,8 @@ var nodes = {
 }
 
 var connections = [
-    // lon - fr
-    cloc(nodes.lon, nodes.fr),
+    // lon - lux
+    cloc(nodes.lon, nodes.lux),
     // lon - ro
     cloc(nodes.lon, nodes.ro),
     // lon - sg
@@ -162,7 +164,19 @@ var connections = [
     // cd - sol
     cloc(nodes.cd, nodes.sol),
     // sea - fmt
-    cloc(nodes.sea, nodes.fmt)
+    cloc(nodes.sea, nodes.fmt),
+    // ro - sg
+    cloc(nodes.ro, nodes.sg),
+    // lax - las
+    cloc(nodes.lax, nodes.las),
+    // fmt - las
+    cloc(nodes.fmt, nodes.las),
+    // las - tyo
+    cloc(nodes.las, nodes.tyo),
+    // las - nyc
+    cloc(nodes.las, nodes.nyc),
+    // lux - ro
+    cloc(nodes.lux, nodes.ro)
 ];
 
 
