@@ -123,7 +123,9 @@ var nodes = {
     // sea
     sea: [47.61, -122.34],
     // cs
-    cs: [28.23, 112.94]
+    cs: [28.23, 112.94],
+    // gz
+    gz: [23.16, 113.23]
 }
 
 var connections = [
@@ -182,7 +184,11 @@ var connections = [
     // cs - bj
     cloc(nodes.cs, nodes.bj),
     // cs - cd
-    cloc(nodes.cs, nodes.cd)
+    cloc(nodes.cs, nodes.cd),
+    // cs - gz
+    cloc(nodes.cs, nodes.gz),
+    // gz - cd
+    cloc(nodes.gz, nodes.cd)
 ];
 
 
