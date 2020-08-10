@@ -1,0 +1,176 @@
+{
+  "nav-home": "主页",
+  "nav-about": "关于",
+  "nav-services": "服务",
+  "nav-service": {
+    "dn42": "DN42 服务",
+    "ip": "IP 服务",
+    "hosting": "主机托管",
+    "lg": "Looking Glass",
+    "globe": "全球网络"
+  },
+  "nav-pricing": "价格",
+  "nav-contact": "联系",
+  "nav-portal": "客户中心",
+  "nav-lang": "语言",
+  "footer-phone": "电话",
+  "footer-email": "邮件",
+  "footer-usefullinks": {
+    "main": "相关链接",
+    "home": "主页",
+    "about": "关于我们",
+    "pricing": "定价",
+    "tos": "服务条款",
+    "privacy": "隐私权政策",
+    "peering-policy": "对等政策"
+  },
+  "footer-services": {
+    "main": "我们提供的服务",
+    "dn42": "DN42 服务",
+    "ip": "IP 服务",
+    "hosting": "主机托管",
+    "lg": "Looking Glass",
+    "globe": "全球网络"
+  },
+  "footer-news-title": "订阅我们的通知邮件",
+  "footer-news-descr": "我们会为您提供准确及时的服务通知和优惠信息。",
+  "footer-news-subs": "订阅",
+  "hero": {
+    "title": "探索所有可行策略",
+    "descr": "业界领先的全球因特网服务提供商",
+    "about": "了解我们",
+    "c1title": "全球互联网络",
+    "c1descr": "史无前例地，我们在多地接入了若干互联网络系统",
+    "c2title": "定制化服务",
+    "c2descr": "我们的所有服务均是为客户独家订制，绝无仅有",
+    "c3title": "稳定高效",
+    "c3descr": "经过优化的全球路由能保证您的业务在各地均可快速访问",
+    "c4title": "安全可靠",
+    "c4descr": "我们有独立的检测系统和预警规则，能够应对各种程度的紧急状况"
+  },
+  "about": {
+    "title": "关于我们",
+    "descr": "Strategic Explorations 运营着一套全球 IP 骨干网络，它接入到全球多个分布式网络内， 与若干个主要交换点相连。 同时，Strategic Explorations 也为多个机构提供托管和流量承载服务。",
+    "para": "我们积极连接到不限于传统 Internet 在内的多个分布式网络，并正在寻求与其他类似网络进行沟通，建立连接，以确保能提供与传统因特网不同的服务。",
+    "para1": "我们的骨干网在 DN42 分布式网络中名列前茅，通过全球 11 个 PoP 为 40 多个网络提供 IP Transit 服务。",
+    "para2": "Strategic Explorations 已为多个科研机构和网络部门提供了互联网和内部网络接入服务。",
+    "para3": "我们在骨干网上率先使用实验性的路由协议，以实现高效和低延迟的全球路由方案。",
+    "morepara": "我们在核心路由器上也采用了最新的路由技术和软件，积极引入新的路由特性，用以保证网络服务的质量最优。请随时关注我们的状态页和公告以获取最新的网络相关信息。",
+    "morepara2": "通过引入积极的预警与反应机制，我们能够应对任何级别规模的网络故障，并快速地从中恢复。",
+    "more": "了解更多"
+  },
+  "counts": {
+    "num1": "48",
+    "descr1": "骨干网对等互联网络",
+    "num2": "4",
+    "descr2": "加入的全球性分布式网络",
+    "num3": "12",
+    "descr3": "分布于各个大洲的 PoP",
+    "num4": "7",
+    "descr4": "运行于本司的网络服务"
+  },
+  "cta": {
+    "title": "需要我们提供服务？",
+    "descr": "当您需要我们提供网络服务时，请随时与我们取得联系。本司的客服专员将会听取您的需求并和我们的团队一同制定最适合您的方案和报价。",
+    "but": "立即咨询"
+  },
+  "services": {
+    "main": "服务",
+    "descr": "我们为客户提供多样化的服务，涉及 IP、网络接入、维护和托管等多个方面。",
+    "s1": "IP 服务",
+    "s1descr": "我们提供高质量的 Transit 服务，通过 Strategic Explorations 的全球骨干网，您可以以更低的延迟访问更多的网络。",
+    "s2": "主机托管",
+    "s2descr": "使用 Strategic Explorations 自有的数据中心进行托管，我们能提供更为灵活的计价方案。",
+    "s3": "网络接入",
+    "s3descr": "Strategic Explorations 分布在全球各处的接入点，能够提供最快速地访问您机构网络的服务。",
+    "s4": "机构网络建设",
+    "s4descr": "自有的专业的网络团队，将提供与建设 Strategic Explorations 自身骨干网一致的规划与运维能力。",
+    "s5": "信息咨询服务",
+    "s5descr": "我们经验丰富的维护团队能为您提供从建设规划到配置维护过程中的各类参考。",
+    "s6": "网络间互联",
+    "s6descr": "Strategic Explorations 是多个分布式网络的顶级网络服务提供者，借助我们的服务，您可以在无需部署专门接入点的情况下高速接入这些网络。"
+  },
+  "price": {
+    "main": "价格",
+    "descr": "我们提供很多免费层级的服务，与此同时，对所有客户均提供定制化的定价方案，以提供最具竞争力的服务。",
+    "t1": "免费服务",
+    "month": "月",
+    "t1-1": "有限的咨询服务",
+    "t1-2": "DN42 Transit",
+    "t1-3": "有限的网络信息服务",
+    "t1-4": "分布式网间互联",
+    "t1-but": "立即了解",
+    "t2": "定制化服务",
+    "t2-1": "IP Transit",
+    "t2-2": "全面的咨询服务",
+    "t2-3": "主机托管",
+    "t2-4": "全球网络接入",
+    "t2-5": "机构网络建设",
+    "t2-price": "定制",
+    "t2-but": "立即咨询",
+    "t3": "捐赠我们",
+    "t3-price": "随意",
+    "t3-but": "立即捐赠",
+    "t3-1": "开发者和维护者会很开心",
+    "t3-2": "支持多种支付方式",
+    "t3-3": "未来会优先响应您的服务",
+    "t3-4": "可能会被拿来买零食"
+  },
+  "contact": {
+    "main": "联系",
+    "location": "地址",
+    "email": "邮箱",
+    "phone": "电话",
+    "your-name": "您的名字",
+    "your-email": "您的邮箱",
+    "subject": "主题",
+    "message": "消息内容",
+    "send": "发送"
+  },
+  "serv-ip": {
+    "main": "IP 服务",
+    "peering": "对等互联",
+    "peering-descr": "我们所有的骨干节点均支持进行 Peering，并且我们将长期保持开放的 Peering 政策。 同时，我们还支持通过隧道和IXP进行 Peering。 我们在包括但不限于下列的 IXP 提供 Peering：",
+    "peering-policy": "对等政策",
+    "transit": "IP Transit",
+    "transit-descr": "Strategic Explorations 的高级别全球骨干网能够为您的业务提供更低的延迟和更广的直接可访问网络。我们支持先进的下一代 Internet 协议： IPv6。",
+    "ip-leasing": "IP 租用",
+    "ip-leasing-descr": "我们提供价格灵活的 IP 租用服务，以便对接各种规模的客户服务。"
+  },
+  "peering-policy": {
+    "main": "对等政策",
+    "cost": "价格",
+    "prefix": "前缀",
+    "filtering": "过滤",
+    "contact": "联系人",
+    "range": "服务范围",
+    "keep": "服务维持要求",
+    "contact-descr": "对等方必须拥有 24x7 可供联系的 NOC。",
+    "cost-descr": "AS207268 采取中立的对等政策与定价策略",
+    "prefix-descr": "AS207268 将会宣告 AS-SET AS-STREXP 中的全部前缀，它们包括但不限于：",
+    "sla-descr": "没有明确的 SLA 保证。 Strategic Explorations 提供 best-effort 服务。",
+    "filtering-list": [
+      "传入路由需要遵循 IRR 的过滤规则",
+      "对等方不得宣告除 DN42 外的私有地址空间（RFC1918，RFC4193）",
+      "对等方不得宣告除 DN42 外的私有ASN",
+      "对等方不得配置到我们路由器的静态/默认路由"
+    ],
+    "range-list": [
+      "任何 Strategic Explorations 已经接入的 IXP。对于 > 20Mbps 的流量级别，我们要求在 IXP 内直接建立 BGP 会话。",
+      "任何 Strategic Explorations 骨干网内的 PoP。需要通过隧道连接，我们支持 GRE, Wireguard。"
+    ],
+    "keep-list": [
+      "对等方需遵守 PoP 节点所在国的相关法律。",
+      "对于非对称的流量，需要与我们协商并约定限额或比例。",
+      "对于频繁更新路由或宣告过多无效路由的对等方，我们将暂停 BGP 会话。"
+    ]
+  },
+  "hosting": {
+    "main": "主机托管",
+    "list": [
+      "我们提供分布在全球多个地点、骨干网接入的 Hosting 方案。",
+      "需要主机托管服务的客户，请与我们客服人员联系。"
+    ]
+  },
+  "404": "您要寻找的东西，这里没有。您可能来错了地方。"
+}

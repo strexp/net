@@ -42,7 +42,7 @@ window.addEventListener( 'load', function() {
 			color : 'white',
 			opacity: 0.4,
 			hairline: true,
-			offset: -0.2
+			offset: -0.5
 		};
 		
 		for ( var i in connections ) {			
@@ -96,8 +96,8 @@ function cloc(loc1, loc2) {
 var nodes = {
     // lon
     lon: [51.30, 0.1],
-    // lux
-    lux: [49.61, 6.13],
+    // fr
+    fr: [50.41, 3.10],
     // ro
     ro: [44.26, 26.06],
     // cd
@@ -108,8 +108,6 @@ var nodes = {
     tyo: [35.41, 139.42],
     // hk
     hk: [22.16, 114.10],
-    // las
-    las: [36.11, -115.67],
     // sg
     sg: [1.52, 103.51],
     // sol
@@ -121,16 +119,12 @@ var nodes = {
     // fmt
     fmt: [37.33, -121.59],
     // sea
-    sea: [47.61, -122.34],
-    // cs
-    cs: [28.23, 112.94],
-    // gz
-    gz: [23.16, 113.23]
+    sea: [47.61, -122.34]
 }
 
 var connections = [
-    // lon - lux
-    cloc(nodes.lon, nodes.lux),
+    // lon - fr
+    cloc(nodes.lon, nodes.fr),
     // lon - ro
     cloc(nodes.lon, nodes.ro),
     // lon - sg
@@ -168,27 +162,7 @@ var connections = [
     // cd - sol
     cloc(nodes.cd, nodes.sol),
     // sea - fmt
-    cloc(nodes.sea, nodes.fmt),
-    // ro - sg
-    cloc(nodes.ro, nodes.sg),
-    // lax - las
-    cloc(nodes.lax, nodes.las),
-    // fmt - las
-    cloc(nodes.fmt, nodes.las),
-    // las - tyo
-    cloc(nodes.las, nodes.tyo),
-    // las - nyc
-    cloc(nodes.las, nodes.nyc),
-    // lux - ro
-    cloc(nodes.lux, nodes.ro),
-    // cs - bj
-    cloc(nodes.cs, nodes.bj),
-    // cs - cd
-    cloc(nodes.cs, nodes.cd),
-    // cs - gz
-    cloc(nodes.cs, nodes.gz),
-    // gz - cd
-    cloc(nodes.gz, nodes.cd)
+    cloc(nodes.sea, nodes.fmt)
 ];
 
 

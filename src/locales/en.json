@@ -1,0 +1,176 @@
+{
+  "nav-home": "Home",
+  "nav-about": "About",
+  "nav-services": "Services",
+  "nav-service": {
+    "dn42": "DN42 Services",
+    "ip": "IP Services",
+    "hosting": "Hosting",
+    "lg": "Looking Glass",
+    "globe": "Global Network"
+  },
+  "nav-pricing": "Pricing",
+  "nav-contact": "Contact",
+  "nav-portal": "Portal",
+  "nav-lang": "Language",
+  "footer-phone": "Phone",
+  "footer-email": "Email",
+  "footer-usefullinks": {
+    "main": "Useful Links",
+    "home": "Home",
+    "about": "About Us",
+    "pricing": "Pricing",
+    "tos": "Term of Service",
+    "privacy": "Privacy Policy",
+    "peering-policy": "Peering Policy"
+  },
+  "footer-services": {
+    "main": "Our Services",
+    "dn42": "DN42 Services",
+    "ip": "IP Services",
+    "hosting": "Hosting",
+    "lg": "Looking Glass",
+    "globe": "Global Network"
+  },
+  "footer-news-title": "Join Our Newsletter",
+  "footer-news-descr": "We will provide you with accurate and timely service notices and preferential information.",
+  "footer-news-subs": "Subscribe",
+  "hero": {
+    "title": "Explore All Possible Strategies",
+    "descr": "Industry-leading global Internet service provider",
+    "about": "Learn More",
+    "c1title": "Global Internet",
+    "c1descr": "Unprecedented, we have access to several Internet systems in many places",
+    "c2title": "Customized service",
+    "c2descr": "All our services are exclusively customized for customers and are unique",
+    "c3title": "Stable and efficient",
+    "c3descr": "Optimized global routing can ensure that your business can be quickly accessed everywhere",
+    "c4title": "Safe and reliable",
+    "c4descr": "We have an independent detection system and early warning rules that can respond to various degrees of emergency"
+  },
+  "about": {
+    "title": "About Us",
+    "descr": "Strategic Explorations operates a global IP backbone network, which is connected to multiple distributed networks around the world and is connected to several major exchange points. At the same time, Strategic Explorations also provides hosting and traffic carrying services for multiple institutions.",
+    "para": "We are actively connected to multiple distributed networks that are not limited to the traditional Internet, and are seeking to communicate with other similar networks to establish connections to ensure that we can provide services that are different from the traditional Internet.",
+    "para1": "Our backbone network ranks among the best in the DN42 distributed network, providing IP Transit services to more than 40 networks through 11 PoPs worldwide.",
+    "para2": "Strategic Explorations has provided Internet and intranet access services to multiple scientific research institutions and network departments.",
+    "para3": "We are the first to use experimental routing protocols on the backbone network to achieve efficient and low-latency global routing solutions.",
+    "morepara": "We have also adopted the latest routing technology and software on our core routers and actively introduced new routing features to ensure the best quality of network services. Please pay attention to our status page and announcement at any time to get the latest network-related information.",
+    "morepara2": "By introducing an active warning and response mechanism, we can respond to any level of network failure and quickly recover from it.",
+    "more": "Learn More"
+  },
+  "counts": {
+    "num1": "48",
+    "descr1": "Backbone peering network",
+    "num2": "4",
+    "descr2": "Joined global distributed network",
+    "num3": "12",
+    "descr3": "PoPs distributed on all continents",
+    "num4": "7",
+    "descr4": "Services running in our network"
+  },
+  "cta": {
+    "title": "Need us to provide services?",
+    "descr": "When you need us to provide network services, please feel free to contact us. Our customer service specialist will listen to your needs and work with our team to formulate the best plan and quotation for you.",
+    "but": "Consult now"
+  },
+  "services": {
+    "main": "Services",
+    "descr": "We provide diversified services to customers, involving IP, network access, maintenance and hosting.",
+    "s1": "IP Services",
+    "s1descr": "We provide high-quality Transit services. Through Strategic Explorations's global backbone network, you can access more networks with lower latency.",
+    "s2": "Hosting",
+    "s2descr": "Using Strategic Explorations's own data center for hosting, we can provide more flexible pricing solutions.",
+    "s3": "Internet Access",
+    "s3descr": "Strategic Explorations is distributed at access points around the world, providing the fastest access to your organization's network.",
+    "s4": "Institutional network construction",
+    "s4descr": "Its own professional network team will provide the same planning and operation and maintenance capabilities as the construction of Strategic Explorations's own backbone network.",
+    "s5": "Information consulting services",
+    "s5descr": "Our experienced maintenance team can provide you with various references from construction and planning to configuration and maintenance.",
+    "s6": "Interconnection between networks",
+    "s6descr": "Strategic Explorations is the top network service provider for multiple distributed networks. With our services, you can access these networks at high speed without the need to deploy special access points."
+  },
+  "price": {
+    "main": "Pricing",
+    "descr": "We provide many free-tier services, and at the same time, we provide customized pricing solutions to all customers to provide the most competitive services.",
+    "t1": "Free",
+    "month": "Month",
+    "t1-1": "Limited consulting services",
+    "t1-2": "DN42 Transit",
+    "t1-3": "Limited network information service",
+    "t1-4": "Distributed interconnection",
+    "t1-but": "Request Now",
+    "t2": "Customized service",
+    "t2-1": "IP Transit",
+    "t2-2": "Comprehensive consulting services",
+    "t2-3": "Hosting",
+    "t2-4": "Global network access",
+    "t2-5": "Institutional network construction",
+    "t2-price": "Customized",
+    "t2-but": "Consult now",
+    "t3": "Donate us",
+    "t3-price": "Variable",
+    "t3-but": "Donate now",
+    "t3-1": "Developers and maintainers will be very happy",
+    "t3-2": "Support multiple payment methods",
+    "t3-3": "Will give priority to your service in the future",
+    "t3-4": "May be used to buy snacks"
+  },
+  "contact": {
+    "main": "Contact",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "your-name": "Your Name",
+    "your-email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "serv-ip": {
+    "main": "IP Service",
+    "peering": "Peering",
+    "peering-policy": "Peering Policy",
+    "peering-descr": "All our backbone nodes support Peering, and we will maintain an open Peering policy for a long time. At the same time, we also support Peering through tunnels and IXPs. We offer Peering in IXPs including but not limited to:",
+    "transit": "IP Transit",
+    "transit-descr": "Strategic Explorations' high-level global backbone network can provide your business with lower latency and a wider direct-access network. We support the advanced next-generation Internet protocol: IPv6.",
+    "ip-leasing": "IP Leasing",
+    "ip-leasing-descr": "We provide IP rental services at flexible prices to facilitate customer service of all sizes."
+  },
+  "peering-policy": {
+    "main": "Peering Policy",
+    "cost": "Cost",
+    "prefix": "Prefix",
+    "filtering": "Filtering",
+    "contact": "Contact",
+    "range": "Service Range",
+    "keep": "Maintenance Requirements",
+    "contact-descr": "The peer must have a 24x7 NOC to contact.",
+    "cost-descr": "AS207268 adopts neutral peering policy and pricing strategy",
+    "prefix-descr": "AS207268 will announce all prefixes in including but not limited to AS-SET:AS-STREXP.",
+    "sla-descr": "There is no clear SLA guarantee. Strategic Explorations provides best-effort services.",
+    "filtering-list": [
+      "Incoming routes need to follow the filtering rules of IRR",
+      "Peers cannot announce private address spaces (RFC1918, RFC4193) other than DN42",
+      "The peer shall not announce a private ASN other than DN42",
+      "Peers must not configure a static/default route to our router"
+    ],
+    "range-list": [
+      "Any IXP that Strategic Explorations has access to. For traffic levels > 20Mbps, we require that a BGP session be established directly with us.",
+      "Any PoP within the Strategic Explorations backbone. It needs to be connected through a tunnel. We support GRE, Wireguard."
+    ],
+    "keep-list": [
+      "Peers must comply with the relevant laws of the country where the PoP or IXP node is located.",
+      "For asymmetric traffic, you need to negotiate with us and agree on a quota or ratio.",
+      "For peers that frequently update routes or announce too many invalid routes, we will suspend the BGP session."
+    ]
+  },
+  "hosting": {
+    "main": "Hosting",
+    "list": [
+      "We provide Hosting solutions that are distributed in multiple locations around the world and are connected to the backbone network.",
+      "For customers who need hosting services, please contact our customer service staff."
+    ]
+  },
+  "404": "There is nothing you are looking for. You may be in the wrong place."
+}
