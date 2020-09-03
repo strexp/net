@@ -18,8 +18,8 @@
             <a>{{ $t("nav-services") }}</a>
             <ul>
               <li>
-                <a href="https://dn42.strexp.net">
-                  {{ $t("nav-service.dn42") }}
+                <a href="https://kb.strexp.net">
+                  {{ $t("nav-service.kb") }}
                 </a>
               </li>
               <li>

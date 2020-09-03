@@ -3,7 +3,7 @@
   "nav-about": "关于",
   "nav-services": "服务",
   "nav-service": {
-    "dn42": "DN42 服务",
+    "kb": "服务知识库",
     "ip": "IP 服务",
     "hosting": "主机托管",
     "lg": "Looking Glass",
@@ -26,7 +26,7 @@
   },
   "footer-services": {
     "main": "我们提供的服务",
-    "dn42": "DN42 服务",
+    "kb": "服务知识库",
     "ip": "IP 服务",
     "hosting": "主机托管",
     "lg": "Looking Glass",

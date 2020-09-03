@@ -3,7 +3,7 @@
   "nav-about": "About",
   "nav-services": "Services",
   "nav-service": {
-    "dn42": "DN42 Services",
+    "kb": "Knowledgebase",
     "ip": "IP Services",
     "hosting": "Hosting",
     "lg": "Looking Glass",
@@ -26,7 +26,7 @@
   },
   "footer-services": {
     "main": "Our Services",
-    "dn42": "DN42 Services",
+    "kb": "Knowledgebase",
     "ip": "IP Services",
     "hosting": "Hosting",
     "lg": "Looking Glass",
