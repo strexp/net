@@ -116,10 +116,16 @@ var nodes = {
     nyc: [40.43, -74.0],
     // lax
     lax: [33.56, -118.24],
+    // las
+    las: [36.11, -115.17],
     // fmt
     fmt: [37.33, -121.59],
     // sea
-    sea: [47.61, -122.34]
+    sea: [47.61, -122.34],
+    // csx
+    cs: [27.91, 112.80],
+    // yzu
+    yzu: [24.58, 121.16]
 }
 
 var connections = [
@@ -145,6 +151,12 @@ var connections = [
     cloc(nodes.sg, nodes.hk),
     // lax - hk
     cloc(nodes.lax, nodes.hk),
+    // lax - las
+    cloc(nodes.lax, nodes.las),
+    // fmt - las
+    cloc(nodes.fmt, nodes.las),
+    // sea - las
+    cloc(nodes.sea, nodes.las),
     // fmt - hk
     cloc(nodes.fmt, nodes.hk),
     // tyo - hk
@@ -162,7 +174,31 @@ var connections = [
     // cd - sol
     cloc(nodes.cd, nodes.sol),
     // sea - fmt
-    cloc(nodes.sea, nodes.fmt)
+    cloc(nodes.sea, nodes.fmt),
+    // ro - sg
+    cloc(nodes.ro, nodes.sg),
+    // lax - las
+    cloc(nodes.lax, nodes.las),
+    // fmt - las
+    cloc(nodes.fmt, nodes.las),
+    // las - tyo
+    cloc(nodes.las, nodes.tyo),
+    // las - nyc
+    cloc(nodes.las, nodes.nyc),
+    // lux - ro
+    cloc(nodes.lux, nodes.ro),
+    // cs - bj
+    cloc(nodes.cs, nodes.bj),
+    // cs - cd
+    cloc(nodes.cs, nodes.cd),
+    // cs - gz
+    cloc(nodes.cs, nodes.gz),
+    // gz - cd
+    cloc(nodes.gz, nodes.cd),
+    // cd - cs
+    cloc(nodes.cd, nodes.cs),
+    // cd - yzu
+    cloc(nodes.cd, nodes.yzu)
 ];
 
 
