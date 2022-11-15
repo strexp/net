@@ -15,8 +15,7 @@
         <h2>{{ $t("peering-policy.prefix") }}</h2>
         <p>{{ $t("peering-policy.prefix-descr") }}</p>
         <ul>
-          <li>2a0c:b641:7a0::/44</li>
-          <li>2602:feda:3c8::/46</li>
+          <li v-for="ip in ips" :key="ip">{{ ip }}</li>
         </ul>
         <h2>{{ $t("peering-policy.filtering") }}</h2>
         <ul>
@@ -44,8 +43,17 @@ import BreadCrumbs from "@/components/breadcrumbs.vue";
 
 export default {
   components: {
-    BreadCrumbs
-  }
+    BreadCrumbs,
+  },
+  data: () => ({
+    ips: [
+      "2a0c:b641:7a0::/44",
+      "2602:feda:3c8::/46",
+      "2406:9dc0:10::/44",
+      "2a0d:2683::/32",
+      "2a0e:b107:b70::/44",
+    ],
+  }),
 };
 </script>
 

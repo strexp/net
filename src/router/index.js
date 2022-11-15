@@ -14,42 +14,42 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/prices",
     name: "Prices",
-    component: Prices
+    component: Prices,
   },
   {
     path: "/contact",
     name: "Contact",
-    component: Contact
+    component: Contact,
   },
   {
     path: "/services/ip",
     name: "IP Services",
-    component: IP
+    component: IP,
   },
   {
     path: "/services/hosting",
     name: "Hosting Services",
-    component: Hosting
+    component: Hosting,
   },
   {
     path: "/peering-policy",
     name: "Peering Policy",
-    component: PeeringPolicy
+    component: PeeringPolicy,
   },
   {
     name: "404",
     path: "/404",
-    component: () => import("@/views/404.vue")
+    component: () => import("@/views/404.vue"),
   },
   {
     path: "*",
-    redirect: "/404"
-  }
+    redirect: "/404",
+  },
 ];
 
 const router = new VueRouter({
@@ -62,7 +62,7 @@ const router = new VueRouter({
     } else {
       return { x: 0, y: 0 };
     }
-  }
+  },
 });
 
 export default router;

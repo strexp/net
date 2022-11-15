@@ -35,9 +35,6 @@
               <li>
                 <a href="https://lg.strexp.net">{{ $t("nav-service.lg") }}</a>
               </li>
-              <li>
-                <a href="/globe/">{{ $t("nav-service.globe") }}</a>
-              </li>
             </ul>
           </li>
           <li>
@@ -73,10 +70,10 @@
 <script>
 export default {
   methods: {
-    cglang: function(ln) {
+    cglang: function (ln) {
       this.$i18n.locale = ln;
-    }
-  }
+    },
+  },
 };
 </script>
 

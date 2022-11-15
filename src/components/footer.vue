@@ -77,10 +77,6 @@
                   $t("footer-services.lg")
                 }}</a>
               </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="/globe/">{{ $t("footer-services.globe") }}</a>
-              </li>
             </ul>
           </div>
 

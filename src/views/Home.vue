@@ -27,7 +27,7 @@ export default {
     Counts,
     Clients,
     CTA,
-    Services
-  }
+    Services,
+  },
 };
 </script>

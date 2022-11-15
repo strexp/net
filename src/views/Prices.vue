@@ -13,8 +13,8 @@ import BreadCrumbs from "@/components/breadcrumbs.vue";
 export default {
   components: {
     Pricing,
-    BreadCrumbs
-  }
+    BreadCrumbs,
+  },
 };
 </script>
 

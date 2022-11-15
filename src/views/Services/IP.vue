@@ -7,10 +7,7 @@
         <h2>{{ $t("serv-ip.peering") }}</h2>
         <p>{{ $t("serv-ip.peering-descr") }}</p>
         <ul>
-          <li>EVIX Fremont</li>
-          <li>4IXP Zurich</li>
-          <li>IXP.cat London</li>
-          <li>IXP.cat Singapore</li>
+          <li v-for="ixp in ixps" :key="ixp">{{ ixp }}</li>
         </ul>
         <p>
           <router-link to="/peering-policy">{{
@@ -31,8 +28,30 @@ import BreadCrumbs from "@/components/breadcrumbs.vue";
 
 export default {
   components: {
-    BreadCrumbs
-  }
+    BreadCrumbs,
+  },
+  data: () => ({
+    ixps: [
+      "EVIX Fremont",
+      "4IXP Zurich",
+      "ApertureIX Hong Kong",
+      "GeekIX Taoyuan",
+      "IX42 Singapore",
+      "IX42 Las Vegas",
+      "IX42 New York",
+      "ZXIX Hangzhou",
+      "ZXIX Hong Kong",
+      "Unmetered Exchange Vancouver",
+      "TOHU IX Guangzhou",
+      "OpenSwitch IX Kolkata",
+      "LL-IX Poland",
+      "KSKB IX Taiwan",
+      "KleyReX Frankfurt",
+      "IXPSU Hangzhou",
+      "IXP.cat London",
+      "IXP.cat Singapore",
+    ],
+  }),
 };
 </script>
 

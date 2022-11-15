@@ -14,7 +14,7 @@
 
       <div>
         <iframe
-          style="border:0; width: 100%; height: 270px;"
+          style="border: 0; width: 100%; height: 270px"
           src="https://maps.google.com/maps?hl=en&amp;q=71-75%2C%20Shelton%20Street%20%20London%2C%20Greater%20London+(Strategic%20Explorations%20Network)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
           frameborder="0"
           allowfullscreen

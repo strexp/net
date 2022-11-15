@@ -17,12 +17,12 @@ import Footer from "@/components/footer.vue";
 export default {
   components: {
     Header,
-    Footer
+    Footer,
   },
 
-  mounted: function() {
+  mounted: function () {
     if (navigator.language || navigator.userLanguage === "zh-CN")
       this.$i18n.locale = "zh";
-  }
+  },
 };
 </script>

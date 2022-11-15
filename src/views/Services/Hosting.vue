@@ -17,8 +17,8 @@ import BreadCrumbs from "@/components/breadcrumbs.vue";
 
 export default {
   components: {
-    BreadCrumbs
-  }
+    BreadCrumbs,
+  },
 };
 </script>
 
