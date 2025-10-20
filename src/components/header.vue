@@ -32,9 +32,6 @@
                   $t("nav-service.hosting")
                 }}</router-link>
               </li>
-              <li>
-                <a href="https://lg.strexp.net">{{ $t("nav-service.lg") }}</a>
-              </li>
             </ul>
           </li>
           <li>
